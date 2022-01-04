@@ -5,18 +5,7 @@ import ToDoList from './ToDoList';
 import './App.css';
 
 function App() {
-  const [toDos, setToDo] = useState([
-    {
-      id: 514,
-      text: "sdmkcskmc",
-      isCompleted: false
-    },
-    {
-      id: 5,
-      text: "sdmkcdfcdefskmc",
-      isCompleted: false
-    }
-  ]);
+  const [toDos, setToDo] = useState([]);
   return (
     <div className="App">
       <ToDoHandle onSave={(text) => {
