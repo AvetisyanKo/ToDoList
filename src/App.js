@@ -2,8 +2,6 @@ import { useState } from 'react/cjs/react.development';
 import ToDoHandle from './ToDoHandle';
 import ToDoList from './ToDoList';
 
-import './App.css';
-
 function App() {
   const [toDos, setToDo] = useState([]);
   return (
