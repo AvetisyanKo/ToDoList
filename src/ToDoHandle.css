@@ -1,0 +1,37 @@
+.ToDoHandle-save{
+    margin-left: 10px;
+    background:linear-gradient(rgb(170, 240, 138),rgb(102, 255, 0),rgb(48, 92, 34));
+    color:rgb(255, 251, 248);
+    box-shadow: 4px 4px 4px rgb(139, 39, 0);
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .ToDoHandle-save:hover{
+    filter: brightness(120%);
+  }
+  .ToDoHandle-save:active{
+    filter: brightness(50%);
+  }
+  .ToDoHandle-writeBorder{
+    margin-left: 20px;
+    margin-top: 25px;
+    font-size: 35px;
+    border-radius: 20px;
+    text-indent: 10px;
+    color:rgb(107, 56, 1);
+  }
+  .ToDoHandle-toDoList {
+    font-size: 70px;
+    margin-left: 750px;
+    color:rgb(255, 255, 255);
+    text-shadow: 8px 8px 8px rgb(173, 92, 45);
+  }
+  .ToDoHandle-border{
+    margin-left: 650px;
+    margin-top: 10px;
+    height: 100px;
+    width: 500px;
+    background:linear-gradient(rgb(247, 252, 255),rgb(255, 238, 0),rgb(255, 76, 6));
+    box-shadow: 8px 8px 8px rgb(139, 39, 0);
+    border-radius: 40px;
+  }
